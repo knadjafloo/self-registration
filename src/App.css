@@ -1,0 +1,27 @@
+.App {
+  
+}
+
+.App-logo {
+  height: 50px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 5px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  padding: 10px;
+}
+
+.error-line {
+  color: #FF0000;
+}
