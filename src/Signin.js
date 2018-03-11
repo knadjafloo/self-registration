@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import FormElement from './FormElement';
 import { FormGroup, Button } from 'react-bootstrap';
 
+
 export default class Signin extends Component {
 
     constructor(props) {
@@ -31,7 +32,7 @@ export default class Signin extends Component {
         <div>
             <FormGroup>
             <form name="loginform" onSubmit={this.handleSubmit}>
-                <FormElement type="text" label="UserName" name="username" handleChange={this.handleChange} />
+                <FormElement type="email" label="Email" name="email" placeholder="jane.doe@example.com" handleChange={this.handleChange} />
                 <FormElement type="password" label="Password" name="password" handleChange={this.handleChange} />                
                 <div>
                     <Button type="submit" onChange={this.handleSubmit}>Submit</Button>

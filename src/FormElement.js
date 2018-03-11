@@ -10,14 +10,14 @@ export default class FormElement extends Component {
             name,
             handleChange,
             label,
+            placeholder,
             error
         } = this.props;
 
         return(
             <div className="form-group">
-                <ControlLabel htmlFor={name}>{label}</ControlLabel>
-                
-                <FormControl bsSize="sm" type={type} name={name} onChange={handleChange}/>
+                <ControlLabel htmlFor={name}>{label}</ControlLabel>                
+                <FormControl bsSize="sm" type={type} name={name} onChange={handleChange} placeholder={placeholder}/>
             </div>
         )
     }
