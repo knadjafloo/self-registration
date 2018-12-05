@@ -16,7 +16,6 @@ export default class FormElement extends Component {
           onChange={handleChange}
           placeholder={placeholder}
         />
-        />
       </div>
     );
   }
